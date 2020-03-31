@@ -1,0 +1,53 @@
+h1 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align:center;
+	color:gray;
+}
+
+p {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 2rem;
+}
+
+table {
+	border: 2px solid black;
+	width: 50%;
+	margin: 10 px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align:center;
+}
+
+th {
+	background-color: lightgray;
+}
+
+#top{
+	height: 20rem;
+}
+
+.no-gutter.row,
+.no-gutter.container,
+.no-gutter.container-fluid{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.no-gutter>[class^="col-6"]{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row{
+padding-bottom:2rem;
+
+}
+
+
+
